@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n,rev=0,id;
+        n = sc.nextInt();
+        while(n>0)
+        {
+            id =n%10;
+            n = n/10;
+            rev = rev*10+id;
+            
+        }
+       
+        System.out.println(rev);
+        
+        
+    }
+}
